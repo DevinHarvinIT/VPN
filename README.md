@@ -88,15 +88,16 @@ Netflix is accessed to demonstrate how content availability and regional access 
 
 ![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH142.png)
 
-**A summary comparison documents the three observed states:**
-- Local machine IP and location  
-- Azure VM IP and location  
-- VPN-protected IP and location  
+A summary comparison highlights three distinct network states observed during the lab:
 
-This confirms how VPNs abstract physical location and enhance privacy by routing traffic through alternate geographic endpoints.
+- **Local machine IP and location**  
+  Establishes the original public IP address and geographic location prior to any virtualization or VPN usage.
+
+- **Azure virtual machine IP and location**  
+  Demonstrates how deploying a VM in a different geographic region changes the apparent network location based on cloud infrastructure.
+
+- **VPN-protected IP and location**  
+  Confirms that activating a VPN routes traffic through an external endpoint, masking the original IP address and presenting a new geographic location.
 
 
-This confirms how VPNs function as secure tunnels by masking original IP addresses and routing traffic through alternate geographic locations.
 
-
-This confirms how VPNs function as secure tunnels by masking original IP addresses and routing traffic through alternate geographic locations.
