@@ -1,6 +1,8 @@
 # Virtual Private Network (VPN) Lab
 
-![image alt](images/vpn-header.png)
+<div align="center">
+  <img src="PLACEHOLDER_HEADER_IMAGE" alt="VPN Lab Header">
+</div>
 
 ## Overview
 This lab demonstrates the use of a Virtual Private Network to mask geographic location and alter IP-based access by routing traffic through encrypted tunnels. The lab validates VPN behavior by comparing IP addresses and geolocation data before VM creation, after VM deployment, and after VPN activation.
