@@ -1,7 +1,7 @@
 # Virtual Private Network Lab
 
 <div align="center">
-  <img src="PLACEHOLDER_HEADER_IMAGE_URL" alt="VPN Lab Header" />
+  <img src="PLACEHOLDER_HEADER_IMAGE" alt="VPN Lab Header">
 </div>
 
 ## Overview
@@ -26,108 +26,101 @@ This lab demonstrates how a Virtual Private Network (VPN) functions as a secure 
 - VPN traffic routing and IP masking
 - Geolocation validation using real-world services
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 1</b></td>
-    <td align="center"><b>Verify Baseline IPv4 Address and Location</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 1</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Verify Baseline IPv4 Address and Location
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH1)
 
 The baseline public IPv4 address and geographic location are verified from the host machine using an IP lookup service. This establishes the original location before introducing any cloud or VPN-based changes.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 2</b></td>
-    <td align="center"><b>Create Virtual Machine in a Different Geographic Region</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 2</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Create Virtual Machine in a Different Geographic Region
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH2)
 ![image alt](PLACEHOLDER_SH4)
 
 A new Azure virtual machine is deployed in a different geographic region. For this lab, the region is set to East Asia to intentionally assign a public IP address outside of the host machine’s original location.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 3</b></td>
-    <td align="center"><b>Connect to the Virtual Machine Using Remote Desktop</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 3</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Connect to the Virtual Machine Using Remote Desktop
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH5)
 ![image alt](PLACEHOLDER_SH6)
 
 The virtual machine is accessed using Windows Remote Desktop with the VM’s public IP address. This confirms successful deployment and establishes the VM as the testing environment.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 4</b></td>
-    <td align="center"><b>Verify Virtual Machine Public IP and Location</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 4</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Verify Virtual Machine Public IP and Location
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH7)
 
 From within the virtual machine, the public IPv4 address and location are checked again. Because the VM was deployed in East Asia, the IP geolocation reflects Hong Kong, confirming correct regional placement.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 5</b></td>
-    <td align="center"><b>Download and Sign In to VPN Client</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 5</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Download and Sign In to VPN Client
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH10)
 ![image alt](PLACEHOLDER_SH11)
 
 The Proton VPN client is downloaded and installed on the virtual machine. After installation, the client is launched and authenticated in preparation for establishing a VPN connection.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 6</b></td>
-    <td align="center"><b>Connect to VPN and Confirm Updated IP Address</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 6</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Connect to VPN and Confirm Updated IP Address
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH12)
 
 Once connected to Proton VPN, the public IP address and geolocation are checked again. The VPN assigns a new public-facing IP address, shifting the apparent location to the Netherlands.
 
-<br>
+---
 
-<table width="100%">
-  <tr>
-    <td align="left"><b>Step 7</b></td>
-    <td align="center"><b>Validate Geolocation Change Using Netflix</b></td>
-    <td align="right"></td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center;">
+  <div style="font-weight: bold;">Step 7</div>
+  <div style="flex: 1; text-align: center; font-weight: bold;">
+    Validate Geolocation Change Using Netflix
+  </div>
+</div>
 
 ![image alt](PLACEHOLDER_SH13)
 
 Netflix is accessed to validate the geolocation change. The site loads with Netherlands regional indicators, confirming that location-based content reflects the VPN-assigned IP address.
 
-<br>
+---
 
 ## Results Summary
 
