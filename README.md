@@ -24,7 +24,7 @@ This lab demonstrates the use of a Virtual Private Network to mask geographic lo
 
 <br>
 
-## **Step  <div align="center"><b>Baseline IP Address and Geolocation Check</b></div>
+## **Step 1**  <div align="center"><b>Baseline IP Address and Geolocation Check</b></div>
 
 
 ![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH1.png)
