@@ -86,7 +86,7 @@ Netflix is accessed to demonstrate how content availability and regional access 
 
 ![image alt](images/SH14.png)
 
-A summary comparison documents the three observed states:
+**A summary comparison documents the three observed states:**
 - Local machine IP and location  
 - Azure VM IP and location  
 - VPN-protected IP and location  
