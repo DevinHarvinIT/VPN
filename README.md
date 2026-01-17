@@ -24,9 +24,10 @@ This lab demonstrates the use of a Virtual Private Network to mask geographic lo
 
 <br>
 
-## **Step 1** <div align="center"><b>Baseline IP Address and Geolocation Check</b></div>
+## **Step  <div align="center"><b>Baseline IP Address and Geolocation Check</b></div>
 
-![image alt](images/SH1.png)
+
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH1.png)
 
 The public IPv4 address and geographic location of the local machine are identified using an IP lookup service. This establishes a baseline before any virtual infrastructure or VPN usage.
 
@@ -34,8 +35,8 @@ The public IPv4 address and geographic location of the local machine are identif
 
 ## **Step 2** <div align="center"><b>Create Virtual Machine in Alternate Geographic Region</b></div>
 
-![image alt](images/SH2.png)
-![image alt](images/SH4.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH2.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH4.png)
 
 A virtual machine is deployed in the East Asia region using Azure. This selection determines the initial geolocation associated with the VM’s public IP address.
 
@@ -43,8 +44,8 @@ A virtual machine is deployed in the East Asia region using Azure. This selectio
 
 ## **Step 3** <div align="center"><b>Access Virtual Machine via Remote Desktop</b></div>
 
-![image alt](images/SH5.png)
-![image alt](images/SH6.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH5.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH6.png)
 
 The virtual machine is accessed using Microsoft Remote Desktop by connecting to the VM’s public IP address with administrator credentials.
 
@@ -52,7 +53,7 @@ The virtual machine is accessed using Microsoft Remote Desktop by connecting to 
 
 ## **Step 4** <div align="center"><b>Verify VM IP Address and Location</b></div>
 
-![image alt](images/SH7.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH7.png)
 
 The VM’s public IP address is checked using an IP lookup service, confirming the geolocation corresponds to Hong Kong based on the selected Azure region.
 
@@ -60,8 +61,8 @@ The VM’s public IP address is checked using an IP lookup service, confirming t
 
 ## **Step 5** <div align="center"><b>Install and Connect to VPN Client</b></div>
 
-![image alt](images/SH10.png)
-![image alt](images/SH11.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH10.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH11.png)
 
 Proton VPN is downloaded and installed on the virtual machine. A VPN server located in a different country is selected and the VPN tunnel is established.
 
@@ -69,7 +70,7 @@ Proton VPN is downloaded and installed on the virtual machine. A VPN server loca
 
 ## **Step 6** <div align="center"><b>Validate VPN IP Address and Geolocation Change</b></div>
 
-![image alt](images/SH12.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH12.png)
 
 After VPN activation, the public IP address is checked again. The geolocation now reflects the VPN server location in the Netherlands, confirming successful traffic tunneling.
 
@@ -77,7 +78,7 @@ After VPN activation, the public IP address is checked again. The geolocation no
 
 ## **Step 7** <div align="center"><b>Validate Geolocation Impact Using Streaming Services</b></div>
 
-![image alt](images/SH13.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH13.png)
 
 Netflix is accessed to demonstrate how content availability and regional access are influenced by IP-based geolocation changes introduced by the VPN.
 
@@ -85,7 +86,7 @@ Netflix is accessed to demonstrate how content availability and regional access 
 
 ## **Step 8** <div align="center"><b>Summary of IP Address and Geolocation Transitions</b></div>
 
-![image alt](images/SH14.png)
+![image alt](https://github.com/DevinHarvinIT/VPN/blob/7e10cd6d7ab791cfbaacdd274302aaa74f3324fb/Images/SH142.png)
 
 **A summary comparison documents the three observed states:**
 - Local machine IP and location  
